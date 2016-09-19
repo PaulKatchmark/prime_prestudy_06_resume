@@ -7,7 +7,24 @@ p {
 #header {
   text-align: center;
 }
+.profile img {
+    width: 400px;
+    height: auto;
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
 
+.profile img:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
 body {
     background-image: url(http://www.mlwebco.com/wp-content/uploads/2011/03/bg_pattern_example.jpg);
     margin-right: 15%;
@@ -22,6 +39,21 @@ body {
     text-align: center;
 }
 
+.tilt {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.tilt:hover {
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
 html {
     background-image: url(https://66.media.tumblr.com/tumblr_lsudn1Xqjy1qzunn4o1_400.gif);
 }
@@ -52,10 +84,7 @@ h4 {
     color: #1ec503;
 }
 
-.profile img{
-  width: 400px;
-  height: auto;
-}
+
 
 
 
